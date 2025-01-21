@@ -1,7 +1,7 @@
 from Rest_Frameworks import serializers
 from .models import SubscriptionPlan, CustomUser, UseProfile, Category
 
-
+# Creating serializers
 class SubscriptionSerializer(serializers.ModelSerializer):
   class Meta:
     model = SubscriptionPlan
